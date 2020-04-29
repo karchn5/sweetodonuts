@@ -24,6 +24,7 @@ h1 {
 .nav h1{
     margin-left: .5em;
     font-family: 'Oleo Script', cursive;
+    font-size: 18px;
 }
 
 #page-nav label, #hamburger {
@@ -37,7 +38,7 @@ h1 {
     right: .25em;
     color:black;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   /* Break down menu items into vertical */
