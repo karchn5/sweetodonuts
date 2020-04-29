@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sweet O Donuts</title>
+    <link rel="icon" href="images/sweetodonutslogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <nav id="page-nav">
+            <h1>Sweet O Donuts</h1>
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul>
+                <li><a href= "#">Menu</a></li>
+                <li><a href= "#">Location</a></li>
+                <li><a href= "#">About</a></li>
+                <li><a href= "#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="intro">
+        <h1>Welcome</h1>
+        <p>We are a family-run business making fresh coffee, donuts, and pastries daily!</p>
+        <p>Thank you for your support!</p>
+        <p><em>- The Chen Family</em></p>
+        <img src="images/sweetodonuts.jpg">
+    </div>
+    <div class="menu-items">
+        <div class="menu-select">
+        <a><img src="images/anna-sullivan--tR4fnNJW2A-unsplash.jpg"></a>
+            <div class="item-box">
+                <h2>DONUTS</h2>
+            </div>
+        </div>
+        <div class="menu-select">
+        <a><img src="images/sergio-arze-5msGxboneMA-unsplash.jpg"></a>
+        <div class="item-box"><h2>PASTRIES</h2></div>
+        </div>
+        <div class="menu-select">
+        <a><img src="images/mike-kenneally-tNALoIZhqVM-unsplash.jpg"></a>
+        <div class="item-box"><h2>DRINKS</h2></div>
+        </div>
+
+    </div>
+    <div class="information">
+        <div class="locate-hour">
+
+        <h3>Open Everyday!</h3>
+        <div class="left">
+        <p>Monday - Friday</p>
+        <p>Saturday - Sunday</p>
+        </div>
+        <div class="right">
+        <p>4:30AM - 4:00PM</p>
+        <p>4:30AM - 2:00PM</p>
+        </div>
+        <hr>
+        <div class="left">
+        <p>9041 Atlantic Ave</p>
+        <p>Huntington Beach CA 92646</p>
+        <p>(714) 964-2729</p>
+        </div>
+
+        </div>
+        <!-- <a href="https://www.google.com/maps/place/Sweet+O+Donuts/@33.7622833,-118.0350463,12z/data=!4m8!1m2!2m1!1ssweet+o+donuts!3m4!1s0x0:0xf4912fed0410a423!8m2!3d33.6586028!4d-117.970376"></a> -->
+        <div id="map">
+        </div>
+
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXUtFbzRHaTXm8CliH6ybqHy_BVFZQKmU&callback=initMap">
+    </script>
+</body>
+</html>
