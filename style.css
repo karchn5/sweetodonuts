@@ -200,6 +200,10 @@ h1 {
 
 
 @media only screen and (min-width: 768px) {
+
+    #map {
+      height: 400px;
+  }
   
     .container {
       display: inline-block;
@@ -277,7 +281,7 @@ h1 {
 
     .intro {
       position: relative;
-      height: 60vh;
+      height: 40vh;
     }
 
     .intro-text {
@@ -303,7 +307,7 @@ h1 {
 
     .intro img {
         width: 60%;
-        height: 60vh;
+        height: 40vh;
         display: inline-block;
         position: absolute;
         right: 0em;
