@@ -40,12 +40,12 @@ h1 {
   }
 
 
-  #page-nav ul li a {
-    color:  rgba(62, 55, 55, 1);
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: .5em;
-  }
+#page-nav ul li a {
+  color:  rgba(62, 55, 55, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .5em;
+}
 
 #page-nav ul li a:hover {
   background-color:rgba(62, 55, 55, 1);
@@ -318,11 +318,11 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
     .intro {
-      height: 85vh;
+      height: 81vh;
     }
 
     .intro img {
-      height: 85vh;
+      height: 81vh;
     }
 
     .intro h1 {
