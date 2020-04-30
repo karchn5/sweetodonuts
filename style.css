@@ -5,6 +5,13 @@ body {
     font-weight: 200;
 }
 
+footer {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  text-align: center;
+  padding-top: .25em;
+}
+
 p {
     margin: .5em;
 }
@@ -25,11 +32,25 @@ h1 {
     margin-left: .5em;
     font-family: 'Oleo Script', cursive;
     font-size: 18px;
+    color: rgba(62, 55, 55, 1);
 }
 
 #page-nav label, #hamburger {
     display: none;
   }
+
+
+  #page-nav ul li a {
+    color:  rgba(62, 55, 55, 1);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5em;
+  }
+
+#page-nav ul li a:hover {
+  background-color:rgba(62, 55, 55, 1);
+  color: white;
+}
 
 #page-nav label {
     display: block;
@@ -56,6 +77,8 @@ h1 {
     display: none;
     font-size: 10px;
   }
+
+  
 
   #page-nav input:checked ~ ul {
     display: block;
@@ -91,6 +114,7 @@ h1 {
   .menu-select img {
     object-fit: contain;
     width: 100%;
+
   }
 
   .item-box {
@@ -162,3 +186,258 @@ h1 {
       right: 0em;
       text-align: right;
   }
+
+  @keyframes transitionIn {
+    from {
+        opacity:0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+    .container {
+      display: inline-block;
+      width: 50%;
+      margin: 0em 2em 0em 2em;
+    }
+
+    .left{
+      margin: 0em;
+      margin-left: 1.5em;
+      display: inline-block;
+      flex-direction: column;
+      position: relative;
+      left: 0em;
+      text-align: left;
+    }
+  
+    .right{
+        margin-right: 1.5em;
+        display: inline-block;
+        flex-direction: column;
+        position: absolute;
+        text-align: right;
+        right: 50%;
+    }
+
+    .location {
+      width: 40%;
+      position: absolute;
+      left: 50%;
+      margin-top: 1em;
+    }
+
+    .menu-items {
+      width: 90%;
+      display: inline-flex;
+      justify-content: space-between;
+      position: relative;
+      left: 5%;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+  
+    .menu-select img {
+      object-fit: contain;
+      width: 100%;
+      
+    }
+  
+    .item-box {
+      position: absolute;
+      bottom: .25em;
+      background-color: black;
+      width: 100%;
+      height: 25%;
+      opacity: 75%;
+      
+    }
+    
+    .menu-select {
+      position: relative;
+      margin: 2em auto 2em auto;
+      width: 30%;
+    }
+  
+    .item-box h2{ 
+      color: white;
+      top: .25em;
+      position: relative;
+      bottom: .25em;
+      opacity: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .intro {
+      position: relative;
+      height: 60vh;
+    }
+
+    .intro-text {
+      width: 40%;
+      padding-bottom: 0em;
+      display: inline-block;
+      position: absolute;
+      top: 1em;
+    }
+
+    .intro h1 {
+        padding-top: .5em;
+        text-align: center;
+        font-family: 'Oleo Script', cursive;
+        font-size: 56px;
+    }
+
+    .intro p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 18px;
+    }
+
+    .intro img {
+        width: 60%;
+        height: 60vh;
+        display: inline-block;
+        position: absolute;
+        right: 0em;
+        top: 0em;
+        margin-top: 0em;
+        object-fit: cover;
+        object-position: 50% 50%;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro {
+      height: 85vh;
+    }
+
+    .intro img {
+      height: 85vh;
+    }
+
+    .intro h1 {
+      padding-top: 1em;
+      font-size: 72px;
+    }
+
+    .intro p {
+      font-size: 36px;
+      padding-top: 1em;
+    }
+    .container {
+      display: inline-block;
+      width: 40%;
+      margin: 1em 5em 2em 5em;
+    }
+
+    .container p {
+      font-size: 24px;
+    }
+
+    .container h3 {
+      font-size: 48px;
+    }
+
+    .left{
+      display: inline-block;
+      flex-direction: column;
+      position: relative;
+      left: 0em;
+      text-align: left;
+    }
+  
+    .right{
+        margin-right: 1.5em;
+        display: inline-block;
+        flex-direction: column;
+        position: absolute;
+        text-align: right;
+        right: 55%;
+    }
+
+    .location {
+      width: 40%;
+      position: absolute;
+      left: 50%;
+      margin-top: 2.25em;
+    }
+
+    .item-box h2 {
+      padding-top: .5em;
+    }
+  
+    .nav {
+      height: 15vh;
+      margin: 0 auto;
+      padding: .75em;
+      font-size: 24px;
+      width: 80%;
+  }
+  
+    .nav h1{
+        font-size: 18px;
+        margin-left: 0em;
+    }
+
+    #page-nav label {
+      display: none;
+    }
+
+    #page-nav ul {
+      display: block;
+      font-size: 18px;
+    }
+
+
+    #page-nav ul li {
+      display: block;
+      text-align: right;
+      float: none;
+      margin: 1em;
+    }
+
+    #page-nav ul li a {
+      color:  rgba(62, 55, 55, 1);
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      padding: .5em;
+    }
+
+    #page-nav ul li:nth-child(1){
+      float: left;
+    }
+
+    #page-nav ul li:nth-child(2){
+      float: left;
+    }
+
+    #page-nav ul li:nth-child(3){
+      float: right;
+    }
+
+    #page-nav ul li:nth-child(4){
+      float: right;
+    }
+
+    .logo h1{
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 20%;
+      font-size: 48px;
+    }
+
+  
+
+}
