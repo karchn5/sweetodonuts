@@ -1,0 +1,42 @@
+.nav {
+    background-color: $color-navy;
+    grid-column: nav-start / nav-end;
+    grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+
+    //position fixed
+    position: fixed;
+    height: 100%;
+    width: 20rem;
+
+
+    &__logo {
+        font-family: $font-primary;
+        color: $color-white;
+        font-size: 2.5rem;
+
+    }
+
+    &__select {
+        margin: 2rem 0 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    &__link {
+        display: block;
+        letter-spacing: 1px;
+        color: $color-pink-light;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+}

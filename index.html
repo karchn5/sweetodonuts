@@ -1,88 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Sweet O Donuts</title>
-    <link rel="icon" href="images/sweetodonutslogo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="app.js"></script>
-</head>
-<body>
-    <div class="nav">
-        <nav id="page-nav">
-            <div class = "logo">
-            <a href="#"><h1>Sweet O Donuts</h1></a>
-            </div>
-            <label for="hamburger">&#9776;</label>
-            <input type="checkbox" id="hamburger"/>
-            <ul>
-                <li><a href= "#">Menu</a></li>
-                <li><a href= "#">Location</a></li>
-                <li><a href= "#">About</a></li>
-                <li><a href= "#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="intro">
-        <div class="intro-text">
-        <h1>Welcome</h1>
-        <p>We are a family-run business making fresh coffee, donuts, and pastries daily!</p>
-        <p>Thank you for your support!</p>
-        <p><em>- The Chen Family</em></p>
-        </div>
-        <img src="images/sweetodonuts.jpg">
-    </div>
-    <div class="menu-items">
-        <div class="menu-select">
-        <a><img src="images/anna-sullivan--tR4fnNJW2A-unsplash.jpg"></a>
-            <div class="item-box">
-                <h2>DONUTS</h2>
-            </div>
-        </div>
-        <div class="menu-select">
-        <a><img src="images/sergio-arze-5msGxboneMA-unsplash.jpg"></a>
-        <div class="item-box"><h2>PASTRIES</h2></div>
-        </div>
-        <div class="menu-select">
-        <a><img src="images/mike-kenneally-tNALoIZhqVM-unsplash.jpg"></a>
-        <div class="item-box"><h2>DRINKS</h2></div>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="sass/main.css">
 
-    </div>
-    <div class="information">
-        <div class="locate-hour">
-            <div class="container">
-                <h3>Open Everyday!</h3>
-                <div class="left">
-                <p>Monday - Friday</p>
-                <p>Saturday - Sunday</p>
-                </div>
-                <div class="right">
-                <p>4:30AM - 4:00PM</p>
-                <p>4:30AM - 2:00PM</p>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Sweet O Donuts</title>
+    </head>
+    <body class="container">
+        <section class="nav">
+            <h3 class="nav__logo">Sweet O Donuts</h3>
+            <nav class="nav__select">
+                <ul class="nav__item"><a href="#" class="nav__link">menu</a></ul>
+                <ul class="nav__item"><a href="#" class="nav__link">gallery</a></ul>
+                <ul class="nav__item"><a href="#" class="nav__link">about</a></ul>
+            </nav>
+        </section>
+
+        <section class="header">
+            <div class="header__content">
+                <h1 class="heading-1">Fresh Daily</h1>
+                <p class="header__text">Donuts, Croissants, Coffee and More!</p>
+                <button class="btn header__btn">See Our Full Menu!</button>
+            </div>
+        </section>
+        
+        <section class="info">
+            <div class="info__address">            
+                <h2 class="heading-2">Come Visit Us</h2>
+                <p class="info__address-text">9041 Atlantic Ave</p>
+                <p class="info__address-text">Huntington Beach CA, 92646</p>
+                <p class="info__address-text"><a href="tel:7149642729" class="info__tele">(714)964-2729</a></p>
+            </div>
+            <div class="info__line"></div>
+            <div class="info__hours">            
+                <h2 class="heading-2">Open Everyday</h2>
+                <div class="info__hours-text">
+                    <div class="info__days">
+                        <p class="info__days-1">Mon-Fri</p>
+                        <p class="info__days-2">Sat-Sun</p>
+                    </div>
+                    <div class="info__times">
+                        <p class="info__times-1">4:30AM - 4:00PM</p>
+                        <p class="info__times-2">4:30AM - 2:00PM</p>
+                    </div>
                 </div>
             </div>
-            <div class="left container location">
-            <p>9041 Atlantic Ave</p>
-            <p>Huntington Beach CA 92646</p>
-            <p>(714) 964-2729</p>
+        </section>
+
+        <section class="popular">
+            <h4 class="heading-4 popular__heading">Popular Items</h4>
+            <div class="popular__items">
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
+                <div class="popular__item">
+                    <img class="popular__img" src="img/doughnuts.png" alt="yummy donut">
+                    <div class="popular__text">
+                        <p class="popular__text-name">Classic Glaze</p>
+                        <p class="popular__text-price">$1.50</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- <a href="https://www.google.com/maps/place/Sweet+O+Donuts/@33.7622833,-118.0350463,12z/data=!4m8!1m2!2m1!1ssweet+o+donuts!3m4!1s0x0:0xf4912fed0410a423!8m2!3d33.6586028!4d-117.970376"></a> -->
-        <div id="map">
-        </div>
+        </section>
 
-        <footer>
-            <p>© 2020 Sweet O Donuts</p>
-        </footer>
+        <section class="messages">
+            <div class="message">
+                <p class="message__text">We are a small family-run business.</p>
+                <p class="message__text"> Thank you so much for the support!</p>
+            </div>
+            <div class="message">
+                <button class="btn message__btn">Check Us Out on Yelp!</button>
+            </div>
+        </section>
 
-    </div>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXUtFbzRHaTXm8CliH6ybqHy_BVFZQKmU&callback=initMap">
-    </script>
-</body>
+        <section class="gallery">
+            <h4 class="heading-4 gallery__heading">Gallery</h4>
+            <div class="gallery__items">
+                <img src="img/yummies.jpg" alt="" class="gallery__img">
+                <img src="img/yummies.jpg" alt="" class="gallery__img">
+                <img src="img/yummies.jpg" alt="" class="gallery__img gallery__img--3">
+                <img src="img/yummies.jpg" alt="" class="gallery__img">
+                <img src="img/yummies.jpg" alt="" class="gallery__img">
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <p class="footer__text">© 2020 Sweet O Donuts. All rights reserved.</p>
+        </section>
+        
+    </body>
 </html>

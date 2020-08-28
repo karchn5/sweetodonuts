@@ -78,7 +78,6 @@ h1 {
     font-size: 10px;
   }
 
-  
 
   #page-nav input:checked ~ ul {
     display: block;

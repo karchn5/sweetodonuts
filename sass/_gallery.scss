@@ -1,0 +1,55 @@
+.gallery {
+    background-color: $color-white;
+    grid-column: center-start / center-end;
+    grid-row: 4 / 5;
+
+    display: grid;
+    grid-template-rows: min-content min-content;
+    margin: 5rem 0;
+
+    grid-row-gap: 2rem;
+
+    &__heading {
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+
+    &__items {
+        grid-row: 2 / 3;
+        grid-column: 1 / -1;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 12vw);
+        grid-gap: 3rem;
+    }
+
+    &__img {
+
+        &--1 {
+
+        }
+
+        &--2 {
+
+        }
+
+        &--3 {
+            grid-row: 1 / -1;
+            grid-column: 3 / -1;
+        }
+
+        &--4 {
+
+        } 
+
+        &--5 {
+
+        }
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}

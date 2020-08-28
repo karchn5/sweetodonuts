@@ -1,0 +1,48 @@
+%heading {
+    font-family: $font-primary;
+    font-weight: 500;
+}
+
+.heading-1 {
+    @extend %heading;
+    font-size: 5.5rem;
+    color: $color-white;
+}
+
+.heading-2 {
+    @extend %heading;
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.heading-3 {
+    @extend %heading;
+    font-size: 3rem;
+    color: white;
+}
+
+.heading-4 {
+    @extend %heading;
+    font-size: 4rem;
+    color: $color-navy-light;
+    text-align: center;
+}
+
+.btn {
+    background-color: $color-pink;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-family: $font-secondary;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-pink-light;
+    }
+}
