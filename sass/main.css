@@ -80,6 +80,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .heading-2 {
+    margin-bottom: 1rem;
+    font-size: 3.2rem;
+  }
+}
+
 .heading-3 {
   font-size: 3rem;
   color: white;
@@ -160,7 +167,6 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .nav__logo {
-    font-size: 2rem;
     margin: 0 2rem;
   }
 }
