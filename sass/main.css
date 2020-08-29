@@ -48,8 +48,8 @@ body {
 
 @media only screen and (max-width: 50em) {
   .container {
-    -ms-grid-rows: 6rem calc(100vh - 6rem);
-        grid-template-rows: 6rem calc(100vh - 6rem);
+    -ms-grid-rows: 6rem calc(80vh - 6rem);
+        grid-template-rows: 6rem calc(80vh - 6rem);
     -ms-grid-columns: [full-start] minmax(6rem, 1fr) [center-start] ([col-start] minmax(min-content, 14rem) [col-end])[8] [center-end] minmax(6rem, 1fr) [full-end];
         grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(-webkit-min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
         grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
@@ -209,6 +209,12 @@ body {
 @media only screen and (max-width: 50em) {
   .nav__link {
     margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav__link {
+    margin: 1rem;
   }
 }
 
@@ -511,7 +517,7 @@ body {
 
 @media only screen and (max-width: 62.5em) {
   .info__days-1 {
-    margin-right: 5rem;
+    margin-right: 3rem;
   }
 }
 
@@ -523,7 +529,7 @@ body {
 
 @media only screen and (max-width: 62.5em) {
   .info__days-2 {
-    margin-right: 5rem;
+    margin-right: 3rem;
   }
 }
 
