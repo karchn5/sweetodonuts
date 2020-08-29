@@ -33,6 +33,11 @@
             margin: 0 3rem;
         }
 
+        @media only screen and (max-width: $bp-small) {
+            font-size: 2rem;
+            margin: 0 2rem;
+        }
+
     }
 
     &__select {
@@ -44,6 +49,10 @@
         @media only screen and (max-width: $bp-medium) {
             flex-direction: row;
             margin: 0 2rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            margin: 1rem 0 ;
         }
         
     }

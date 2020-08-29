@@ -19,6 +19,12 @@
         grid-column: full-start / full-end;
         grid-row: 5 / 6;
     }
+
+    
+    @media only screen and (max-width: $bp-small) {
+        grid-template-columns: minmax(min-content, 1fr);
+        grid-template-rows: minmax(min-content, 1fr) minmax(min-content, 1fr);
+    }
 }
 
 .message {
@@ -29,6 +35,12 @@
     &__text {
         color: $color-white;
         font-size: 1.6rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        
     }
 
     &__btn {
@@ -39,6 +51,10 @@
 
         @media only screen and (max-width: $bp-medium) {
             font-size: 2.5rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            margin-top: 2rem;
         }
     }
 }

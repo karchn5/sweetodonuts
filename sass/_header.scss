@@ -18,12 +18,20 @@
         grid-row: 2 / 3;
     }
 
+    @media only screen and (max-width: $bp-small) {
+        padding-left: 5rem;
+    }
+
     &__content {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 8rem;
+
+        @media only screen and (max-width: $bp-small) {
+            padding-bottom: 5rem;
+        }
 
     }
 
@@ -32,6 +40,10 @@
         font-size: 2rem;
         font-weight: 300;
         margin-bottom: 5rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-bottom: 3rem;
+        }
     }
 
     &__btn {

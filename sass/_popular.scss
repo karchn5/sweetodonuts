@@ -17,6 +17,8 @@
     @media only screen and (max-width: $bp-medium) {
         grid-column: center-start / center-end;
         grid-row: 4 / 5;
+
+        margin: 3rem 0;
     }
 
     &__heading {
@@ -36,6 +38,11 @@
         @media only screen and (max-width: $bp-medium) {
             grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
             grid-gap: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+            grid-gap: 1rem;
         }
     }
 
@@ -57,7 +64,7 @@
         padding: 1rem;
         font-size: 1.5rem;
         text-transform: uppercase;
-        transform: translateY(-50%);
+        transform: translateY(-10%);
     }
 
     &__text-price {
