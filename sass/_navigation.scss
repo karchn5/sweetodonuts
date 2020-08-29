@@ -12,11 +12,26 @@
     height: 100%;
     width: 20rem;
 
+    @media only screen and (max-width: $bp-medium) {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        grid-row: 1 / 2;
+        grid-column: full-start / full-end;
+
+        flex-direction: row;
+    }
+
 
     &__logo {
         font-family: $font-primary;
         color: $color-white;
         font-size: 2.5rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin: 0 3rem;
+        }
 
     }
 
@@ -25,10 +40,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media only screen and (max-width: $bp-medium) {
+            flex-direction: row;
+            margin: 0 2rem;
+        }
+        
     }
 
 
     &__link {
+        // background-color: $color-pink;
+        // padding: 1rem;
+
         display: block;
         letter-spacing: 1px;
         color: $color-pink-light;
@@ -37,6 +61,10 @@
         font-size: 1.5rem;
         font-weight: 300;
         margin-bottom: 2rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin: 2rem;
+        }
     }
 
 }

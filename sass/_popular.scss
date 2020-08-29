@@ -9,6 +9,15 @@
     grid-row-gap: 2rem;
     margin: 5rem 0;
 
+    @media only screen and (max-width: $bp-large) {
+        grid-column: center-start / center-end;
+        grid-row: 3 / 4;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        grid-column: center-start / center-end;
+        grid-row: 4 / 5;
+    }
 
     &__heading {
         grid-row: 1 / 2;
@@ -23,6 +32,11 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         grid-gap: 5rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+            grid-gap: 3rem;
+        }
     }
 
     &__item {
