@@ -69,6 +69,8 @@ body {
   background-color: red;
   color: white;
   padding: 2rem;
+  width: 100%;
+  position: fixed;
 }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
