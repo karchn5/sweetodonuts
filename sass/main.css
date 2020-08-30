@@ -64,6 +64,13 @@ body {
   }
 }
 
+.wip-warning {
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 2rem;
+}
+
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Oleo Script", cursive;
   font-weight: 500;
