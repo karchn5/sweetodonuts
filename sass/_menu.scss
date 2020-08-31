@@ -1,0 +1,120 @@
+.menu {
+    &__container {
+        background-color: $color-white;
+        grid-column: full-start / -1;
+        grid-row: 1 / 3;
+
+        @media only screen and (max-width: $bp-large) {
+            grid-column: full-start / -1;
+            grid-row: 2 / 4;
+        }
+    
+        @media only screen and (max-width: $bp-medium) {
+            grid-column: full-start / -1;
+            grid-row: 2 / 4;
+
+        }
+
+    }
+
+    &__header {
+        color: white;
+        display: flex;
+        background-image: linear-gradient(rgba($color-pink, .85), rgba($color-pink, .85)), url(../img/doughnuts.png);
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        height: 15vh;
+    }
+
+    &__search {
+        background-color: $color-navy;
+        color: $color-white;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--text {
+            margin: 0 1rem;
+            font-size: 1.3rem;
+        }
+
+        &--bar {
+            padding: .25rem;
+            width: 90%;
+        }
+    }
+
+    &__tabs {
+        background-color: $color-navy-light;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__tab {
+        text-decoration: none;
+        color: $color-white;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    &__tab:hover {
+        background-color: $color-pink;
+        color: $color-white;
+    }
+
+    &__main {
+        margin: 6rem;
+    }
+
+    &__category {
+
+        &--header {
+            margin-bottom: 2rem;
+        }
+
+        &--line {
+            width: 100%; 
+            height: 1px; 
+            background: $color-navy-light;
+    
+        }
+        margin: 5rem 0;
+
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 5rem;
+    }
+
+    &__item{
+        &--text {
+        background-color: $color-navy;
+        color: $color-white;
+        transform: translateY(-25%);
+        font-size: 1.5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        }
+
+        &--img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+   
+
+    
+}

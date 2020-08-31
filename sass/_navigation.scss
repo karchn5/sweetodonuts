@@ -11,6 +11,7 @@
     position: fixed;
     height: 100%;
     width: 20rem;
+    
 
     @media only screen and (max-width: $bp-medium) {
         position: relative;
@@ -69,14 +70,22 @@
         font-size: 1.5rem;
         font-weight: 300;
         margin-bottom: 2rem;
+        padding: 1rem 5rem;
+
 
         @media only screen and (max-width: $bp-medium) {
             margin: 2rem;
+            padding: 1rem;
         }
 
         @media only screen and (max-width: $bp-small) {
             margin: 1rem;
+            padding: 1rem;
         }
     }
 
+    &__link:hover {
+        background-color: $color-pink;
+        color: $color-white;
+    }
 }
