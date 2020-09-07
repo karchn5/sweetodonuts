@@ -13,11 +13,11 @@
     </head>
     <body>
 
-        <div class="warning">
+        <!-- <div class="warning">
             <h1 class="wip-warning">
                 THIS WEBSITE IS CURRENTLY IN DEVELOPMENT AND LIVE ONLY FOR TESTING PURPOSES
             </h1>
-        </div>
+        </div> -->
 
         <div class="container">
             <section class="nav">
@@ -25,7 +25,7 @@
                 <nav class="nav__select">
                     <ul class="nav__item"><a href="index.html" class="nav__link">home</a></ul>
                     <ul class="nav__item"><a href="menu.html" class="nav__link">menu</a></ul>
-                    <ul class="nav__item"><a href="#" class="nav__link">gallery</a></ul>
+                    <!-- <ul class="nav__item"><a href="#" class="nav__link">gallery</a></ul> -->
                 </nav>
             </section>
 
@@ -37,102 +37,54 @@
                 </div>
     
                 <div class="menu__search">
-                    <p class="menu__search--text">Search</p>
-                    <input class="menu__search--bar" type="text" placeholder="">
+                    <!-- <p class="menu__search--text">Search</p>
+                    <input class="menu__search--bar" type="text" placeholder=""> -->
                 </div>
     
                 <div class="menu__tabs">
-                    <a href="#" class="menu__tab">All</a>
-                    <a href="#" class="menu__tab">Donuts</a>
-                    <a href="#" class="menu__tab">Pastries</a>
-                    <a href="#" class="menu__tab">Drinks</a>
-                    <a href="#" class="menu__tab">Other</a>
+                    <a href="#" class="menu__tab" id="allTabs">All</a>
+                    <a href="#" data-tab-target="#donuts" class="menu__tab">Donuts</a>
+                    <a href="#" data-tab-target="#croissants" class="menu__tab">Croissants</a>
+                    <a href="#" data-tab-target="#drinks" class="menu__tab">Drinks</a>
+                    <a href="#" data-tab-target="#muffins" class="menu__tab">Other</a>
                 </div>
 
                 <div class="menu__main">
-                    <div class="menu__category">
-                        <h4 class="heading-4 menu__category--header">Donuts</h4>
-                        <div class="menu__items">
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                        </div>  
+                    <div id="donuts" data-tab-content class="active">
+                        <div class="menu__category">
+                            <h4 class="heading-4 menu__category--header">Donuts</h4>
+                            <div class="menu__items donuts"></div>
+                        </div>
                     </div>
 
-                    <div class="menu__category--line"></div>
+                    <div id="croissants" data-tab-content class="active">
+                        <div class="menu__category--line"></div>
 
-                    <div class="menu__category">
-                        <h4 class="heading-4 menu__category--header">Pastries</h4>
-                        <div class="menu__items">
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <img class="menu__item--img" src="img/doughnuts.png" alt="yummy donut">
-                                <div class="menu__item--text">
-                                    <p class="">Classic Glaze</p>
-                                    <p class="">$1.50</p>
-                                </div>
-                            </div>
-                        </div>  
+                        <div class="menu__category">
+                            <h4 class="heading-4 menu__category--header">Croissants</h4>
+                            <div class="menu__items croissants"></div>
+                        </div>
                     </div>
+
+                    <div id="drinks" data-tab-content class="active">
+                        <div class="menu__category--line"></div>
+
+                        <div class="menu__category">
+                            <h4 class="heading-4 menu__category--header">Drinks</h4>
+                            <div class="menu__items drinks"></div>
+                        </div>
+                    </div>
+
+                    <div id="muffins" data-tab-content class="active">
+                        <div class="menu__category--line"></div>
+
+                        <div class="menu__category">
+                            <h4 class="heading-4 menu__category--header">Other</h4>
+                            <div class="menu__items muffins"></div>
+                        </div>
+                    </div>
+                    
+
                 </div>
     
             </div>
@@ -141,10 +93,6 @@
                 <p class="footer__text">© 2020 Sweet O Donuts. All rights reserved.</p>
             </section>
         </div>
-
-
-
-        
-        
+        <script src="app.js"></script>
     </body>
 </html>

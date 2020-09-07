@@ -69,6 +69,11 @@
         color: $color-white;
     }
 
+    &__tab.active {
+        background-color: $color-pink;
+        color: $color-white;
+    }
+
     &__main {
         margin: 6rem;
     }
@@ -100,12 +105,13 @@
         background-color: $color-navy;
         color: $color-white;
         transform: translateY(-25%);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 1.2rem;
         }
 
         &--img {
@@ -118,3 +124,11 @@
 
     
 }
+
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }

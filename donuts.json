@@ -1,0 +1,281 @@
+{
+    "donuts": [
+        {
+            "name": "cake",
+            "price": "0.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "glaze",
+            "price": "0.90",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "old fashion",
+            "price": "0.90",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "twist",
+            "price": "1.00",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "devilfood cake",
+            "price": "0.90",
+            "descript": "A subtle chocolatey cake donut with a slightly crunchy exterior and a soft, cake-like interior.",
+            "flavors": ["chocolate", "chocolate with peanuts", "vanilla", "plain"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "jelly-filled",
+            "price": "1.25",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "buttermilk bar",
+            "price": "1.15",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "chocolate bar",
+            "price": "1.00",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "donut holes (1doz)",
+            "price": "1.60",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "fruit wrap",
+            "price": "1.25",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "bear claw",
+            "price": "1.60",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "apple fritter",
+            "price": "1.60",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "tiger tail",
+            "price": "1.60",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "cinnamon roll",
+            "price": "1.60",
+            "descript": "A beautiful swirl of cinnamon and glaze with a soft and chewy texture.",
+            "flavors": ["chocolate", "cinnamon crumb", "vanilla"],
+            "photo": "img/single.jpg"
+        },
+        {
+            "name": "chocolate chip bar",
+            "price": "1.60",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/single.jpg"
+        }
+    ],
+
+    "croissants": [
+        {
+            "name": "plain",
+            "price": "1.75",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "raisin roll",
+            "price": "1.90",
+            "descript": "A beautiful swirl of cinnamon and glaze with a soft and chewy texture.",
+            "flavors": ["chocolate", "cinnamon crumb", "vanilla"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "cream cheese",
+            "price": "1.90",
+            "descript": "A subtle chocolatey cake donut with a slightly crunchy exterior and a soft, cake-like interior.",
+            "flavors": ["chocolate", "chocolate with peanuts", "vanilla", "plain"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "strawberry",
+            "price": "1.90",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "blueberry",
+            "price": "1.90",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "chocolate chip",
+            "price": "1.90",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/croissant.jpg"
+        },
+        {
+            "name": "ham & cheese",
+            "price": "1.90",
+            "descript": "The classic donut, but long!",
+            "flavors": ["chocolate", "chocolate chip", "maple"],
+            "photo": "img/croissant.jpg"
+        }
+    ],
+
+    "muffins": [
+        {
+            "name": "blueberry muffin",
+            "price": "1.65",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/muffin.jpg"
+        },
+        {
+            "name": "bran muffin",
+            "price": "1.65",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/muffin.jpg"
+        },
+        {
+            "name": "banana muffin",
+            "price": "1.65",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/muffin.jpg"
+        },
+        {
+            "name": "bagel & cream cheese",
+            "price": "1.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/muffin.jpg"
+        }
+        
+    ],
+
+    "drinks": [
+        {
+            "name": "coffee",
+            "price": "1.10/ 1.30/ 1.60",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "flavored coffee",
+            "price": "1.20/ 1.40/ 1.70",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "ice coffee",
+            "price": "3.25",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "hot tea",
+            "price": "1.10/ 1.30/ 1.60",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "ice tea",
+            "price": "1.10/ 1.30/ 1.60",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "hot chocolate",
+            "price": "1.50/ 1.75/ 2.00",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "whole milk",
+            "price": "1.35/ 1.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "chocolate milk",
+            "price": "1.35/ 1.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "low-fat milk",
+            "price": "1.35/ 1.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "orange juice",
+            "price": "1.35/ 1.90",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "soda",
+            "price": "1.75/ 1.85/ 1.95/ 2.25",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        },
+        {
+            "name": "canned soda",
+            "price": "0.85",
+            "descript": "The CLASSIC donut. The dough is given plently of time to rise and create the soft and chewy texture that everybody loves!",
+            "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
+            "photo": "img/drink.jpg"
+        }
+        
+    ]
+}
