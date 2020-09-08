@@ -22,6 +22,7 @@
         grid-column: full-start / full-end;
 
         flex-direction: row;
+        justify-content: space-between;
     }
 
 
@@ -62,7 +63,7 @@
         // background-color: $color-pink;
         // padding: 1rem;
 
-        display: block;
+        display: flex;
         letter-spacing: 1px;
         color: $color-pink-light;
         text-decoration: none;
