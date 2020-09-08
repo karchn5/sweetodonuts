@@ -101,6 +101,7 @@ getMuffins();
 getDrinks();
 
 const tabs = document.querySelectorAll('[data-tab-target]');
+const lines = document.querySelectorAll('.line');
 const tabContents = document.querySelectorAll('[data-tab-content]');
 
 tabs.forEach(tab => {
@@ -113,7 +114,10 @@ tabs.forEach(tab => {
     tabs.forEach(tab => {
       tab.classList.remove('active')
     })
-    
+    lines.forEach(line => {
+        line.classList.remove('menu__category--line')
+    })
+
     tab.classList.add('active')
     target.classList.add('active')
   })
@@ -124,6 +128,10 @@ const allTabs = document.getElementById('allTabs');
 
 allTabs.addEventListener('click', function(){
     allTabs.classList.add('active')
+
+    lines.forEach(line => {
+        line.classList.add('menu__category--line')
+    })
 
     tabs.forEach(tab => {
         const target = document.querySelector(tab.dataset.tabTarget)
