@@ -185,7 +185,8 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .nav__logo {
-    margin: 0 2rem;
+    margin: 0;
+    margin-left: 2rem;
   }
 }
 
@@ -215,7 +216,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .nav__select {
-    margin: 1rem 0;
+    margin: 0;
   }
 }
 
@@ -242,7 +243,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .nav__link {
-    margin: 1rem;
+    margin: .5rem;
     padding: 1rem;
   }
 }
@@ -317,7 +318,7 @@ body {
   .popular__items {
     -ms-grid-columns: (minmax(22.5rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
   }
 }
 
@@ -345,6 +346,13 @@ body {
   text-transform: uppercase;
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
+}
+
+@media only screen and (max-width: 37.5em) {
+  .popular__text {
+    padding: 1.5rem;
+    font-size: 1.7rem;
+  }
 }
 
 .popular__text-price {
@@ -861,6 +869,12 @@ body {
   width: 90%;
 }
 
+@media only screen and (max-width: 62.5em) {
+  .menu__search {
+    display: none;
+  }
+}
+
 .menu__tabs {
   background-color: #60608e;
   color: white;
@@ -905,6 +919,12 @@ body {
   margin: 6rem;
 }
 
+@media only screen and (max-width: 50em) {
+  .menu__main {
+    margin: 3rem;
+  }
+}
+
 .menu__category {
   margin: 5rem 0;
 }
@@ -922,9 +942,15 @@ body {
 .menu__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 5rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .menu__items {
+    grid-gap: 2rem;
+  }
 }
 
 .menu__item--text {
@@ -945,6 +971,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1.2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .menu__item--text {
+    font-size: 1.7rem;
+  }
 }
 
 .menu__item--img {

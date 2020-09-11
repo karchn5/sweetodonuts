@@ -42,7 +42,7 @@
 
         @media only screen and (max-width: $bp-small) {
             grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
-            grid-gap: 1rem;
+            grid-gap: 2rem;
         }
     }
 
@@ -66,6 +66,11 @@
         font-size: 1.5rem;
         text-transform: uppercase;
         transform: translateY(-10%);
+
+        @media only screen and (max-width: $bp-small) {
+            padding: 1.5rem;
+            font-size: 1.7rem;
+        }
     }
 
     &__text-price {

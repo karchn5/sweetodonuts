@@ -44,6 +44,11 @@
             padding: .25rem;
             width: 90%;
         }
+
+        @media only screen and (max-width: $bp-large) {
+            display: none;
+
+        }
     }
 
     &__tabs {
@@ -80,6 +85,10 @@
 
     &__main {
         margin: 6rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin: 3rem;
+        }
     }
 
     &__category {
@@ -100,8 +109,12 @@
 
     &__items {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
         grid-gap: 5rem;
+
+        @media only screen and (max-width: $bp-small) {
+            grid-gap: 2rem;
+        }
     }
 
     &__item{
@@ -116,6 +129,12 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 1.2rem;
+
+            @media only screen and (max-width: $bp-small) {
+                font-size: 1.7rem;
+
+            }
+
         }
 
         &--img {

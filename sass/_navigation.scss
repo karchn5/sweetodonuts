@@ -36,7 +36,8 @@
         }
 
         @media only screen and (max-width: $bp-small) {
-            margin: 0 2rem;
+            margin: 0;
+            margin-left: 2rem;
         }
 
     }
@@ -53,7 +54,7 @@
         }
 
         @media only screen and (max-width: $bp-small) {
-            margin: 1rem 0 ;
+            margin: 0;
         }
         
     }
@@ -80,7 +81,7 @@
         }
 
         @media only screen and (max-width: $bp-small) {
-            margin: 1rem;
+            margin: .5rem;
             padding: 1rem;
         }
     }
