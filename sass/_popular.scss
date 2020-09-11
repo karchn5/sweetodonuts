@@ -36,12 +36,12 @@
         grid-gap: 5rem;
 
         @media only screen and (max-width: $bp-medium) {
-            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
             grid-gap: 3rem;
         }
 
         @media only screen and (max-width: $bp-small) {
-            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
             grid-gap: 1rem;
         }
     }
@@ -58,6 +58,7 @@
 
     &__text {
         display: flex;
+        align-items: stretch;
         justify-content: space-between;
         background-color: $color-navy;
         color: white;

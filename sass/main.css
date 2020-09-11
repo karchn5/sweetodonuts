@@ -307,16 +307,16 @@ body {
 
 @media only screen and (max-width: 50em) {
   .popular__items {
-    -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 3rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
   .popular__items {
-    -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    -ms-grid-columns: (minmax(22.5rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
     grid-gap: 1rem;
   }
 }
@@ -332,6 +332,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

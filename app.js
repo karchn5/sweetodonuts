@@ -9,11 +9,13 @@ function getDonuts() {
         let output = '';
         data.donuts.forEach(function(donuts) {
           output += `<div class="menu__item">
+          
           <img class="menu__item--img" src="${donuts.photo}" alt="yummy donut">
           <div class="menu__item--text">
               <p class="">${donuts.name}</p>
               <p class="">$${donuts.price}</p>
           </div>
+        
       </div>`;
         });
         document.querySelector('.donuts').innerHTML = output;
@@ -142,7 +144,3 @@ allTabs.addEventListener('click', function(){
     })
 
 });
-
-
-
-
