@@ -170,6 +170,22 @@
         transform: translateY(0);
     }
 
+    &__overlay:active {
+        opacity: 1;
+    }
+    
+    &__overlay:active > * {
+        transform: translateY(0);
+    }
+
+    &__overlay:focus {
+        opacity: 1;
+    }
+    
+    &__overlay:focus > * {
+        transform: translateY(0);
+    }
+
     &__item{
         position: relative;
 

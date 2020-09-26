@@ -1026,6 +1026,24 @@ body {
           transform: translateY(0);
 }
 
+.menu__overlay:active {
+  opacity: 1;
+}
+
+.menu__overlay:active > * {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.menu__overlay:focus {
+  opacity: 1;
+}
+
+.menu__overlay:focus > * {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .menu__item {
   position: relative;
 }
