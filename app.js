@@ -10,10 +10,17 @@ function getDonuts() {
         data.donuts.forEach(function(donuts) {
           output += `<div class="menu__item">
           
-          <img class="menu__item--img" src="${donuts.photo}" alt="yummy donut">
+          <div class="menu__img">
+            <img class="menu__item--img" src="${donuts.photo}" alt="yummy donut">
+          
+            <div class="menu__overlay">
+            <p class="menu__item--descript">${donuts.descript}</p>
+            <p class="menu__item--price">$${donuts.price}</p>
+            </div>
+          </div>
+
           <div class="menu__item--text">
-              <p class="">${donuts.name}</p>
-              <p class="">$${donuts.price}</p>
+          <p class="">${donuts.name}</p>
           </div>
         
       </div>`;
@@ -36,10 +43,17 @@ function getDonuts() {
         let output = '';
         data.croissants.forEach(function(croissants) {
           output += `<div class="menu__item">
-          <img class="menu__item--img" src="${croissants.photo}" alt="yummy donut">
+          <div class="menu__img">
+            <img class="menu__item--img" src="${croissants.photo}" alt="yummy donut">
+          
+            <div class="menu__overlay">
+            <p class="menu__item--descript">${croissants.descript}</p>
+            <p class="menu__item--price">$${croissants.price}</p>
+            </div>
+          </div>
+
           <div class="menu__item--text">
-              <p class="">${croissants.name}</p>
-              <p class="">$${croissants.price}</p>
+          <p class="">${croissants.name}</p>
           </div>
       </div>`;
         });
@@ -59,10 +73,17 @@ function getDonuts() {
         let output = '';
         data.muffins.forEach(function(muffins) {
           output += `<div class="menu__item">
-          <img class="menu__item--img" src="${muffins.photo}" alt="yummy donut">
+          <div class="menu__img">
+            <img class="menu__item--img" src="${muffins.photo}" alt="yummy donut">
+          
+            <div class="menu__overlay">
+            <p class="menu__item--descript">${muffins.descript}</p>
+            <p class="menu__item--price">$${muffins.price}</p>
+            </div>
+          </div>
+
           <div class="menu__item--text">
-              <p class="">${muffins.name}</p>
-              <p class="">$${muffins.price}</p>
+          <p class="">${muffins.name}</p>
           </div>
       </div>`;
         });
@@ -83,10 +104,17 @@ function getDonuts() {
         let output = '';
         data.drinks.forEach(function(drinks) {
           output += `<div class="menu__item">
-          <img class="menu__item--img" src="${drinks.photo}" alt="yummy donut">
+          <div class="menu__img">
+            <img class="menu__item--img" src="${drinks.photo}" alt="yummy donut">
+          
+            <div class="menu__overlay">
+            <p class="menu__item--descript">${drinks.descript}</p>
+            <p class="menu__item--price">$${drinks.price}</p>
+            </div>
+          </div>
+
           <div class="menu__item--text">
-              <p class="">${drinks.name}</p>
-              <p class="">$${drinks.price}</p>
+          <p class="">${drinks.name}</p>
           </div>
       </div>`;
         });
@@ -96,6 +124,8 @@ function getDonuts() {
         console.log(err);
       });
   }
+
+  // <p class="">$${drinks.price}</p>
 
 getDonuts();
 getPastries();
@@ -144,3 +174,30 @@ allTabs.addEventListener('click', function(){
     })
 
 });
+
+
+// document.querySelectorAll('.menu__items').forEach(item => {
+//   item.addEventListener('click', function(e){
+//     if(e.target.classList.contains('menu__item--img')){
+//       generateOverlay();
+//     }
+//   })
+// })
+
+
+// function generateOverlay(){
+//   document.querySelector(".overlay").style.display = "flex";
+// }
+
+// document.querySelector(".overlay").addEventListener('click', function(e){
+//   if((e.target.classList.contains('overlay__box'))||(e.target.classList.contains('overlay__box--content--img'))){
+//     generateOverlay();
+//   } else {
+//     off();
+//   }
+// }
+// )
+
+// function off() {
+//   document.querySelector(".overlay").style.display = "none";
+// }

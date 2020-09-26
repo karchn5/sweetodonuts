@@ -33,22 +33,24 @@
         
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        grid-gap: 5rem;
+        grid-gap: 2.5rem;
 
-        @media only screen and (max-width: $bp-medium) {
+        @media only screen and (max-width: $bp-large) {
             grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
             grid-gap: 3rem;
         }
 
+        @media only screen and (max-width: $bp-medium) {
+            grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+            grid-gap: 3rem;
+        }
+
         @media only screen and (max-width: $bp-small) {
-            grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
             grid-gap: 2rem;
         }
     }
 
-    &__item {
-
-    }
 
     &__img {
         width: 100%;
@@ -57,10 +59,8 @@
     }
 
     &__text {
-        display: flex;
-        align-items: stretch;
-        justify-content: space-between;
         background-color: $color-navy;
+        text-align: center;
         color: white;
         padding: 1rem;
         font-size: 1.5rem;
