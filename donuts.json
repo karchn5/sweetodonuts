@@ -152,7 +152,7 @@
         },
         {
             "name": "ham & cheese",
-            "price": "1.90",
+            "price": "2.75",
             "descript": "Juicy ham and american-swiss cheese rolled into a beautiful croissant!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
             "photo": "img/croissant.jpg"

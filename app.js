@@ -135,10 +135,12 @@ getDrinks();
 const tabs = document.querySelectorAll('[data-tab-target]');
 const lines = document.querySelectorAll('.line');
 const tabContents = document.querySelectorAll('[data-tab-content]');
+const fullmenu = document.querySelector('.menu__fullmenu');
 
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     allTabs.classList.remove('active')
+    fullmenu.classList.remove('show')
     const target = document.querySelector(tab.dataset.tabTarget)
     tabContents.forEach(tabContent => {
       tabContent.classList.remove('active')
@@ -160,6 +162,7 @@ const allTabs = document.getElementById('allTabs');
 
 allTabs.addEventListener('click', function(){
     allTabs.classList.add('active')
+    fullmenu.classList.add('show')
 
     lines.forEach(line => {
         line.classList.add('menu__category--line')

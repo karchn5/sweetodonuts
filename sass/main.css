@@ -827,13 +827,35 @@ body {
   }
 }
 
+.menu__fullmenu {
+  background-color: #3a3a51;
+  padding: 2rem;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .menu__fullmenu {
+    padding: 1rem;
+  }
+}
+
+.menu__fullmenu-img {
+  width: 100%;
+}
+
 .menu__header {
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 101, 138, 0.85)), to(rgba(255, 101, 138, 0.85))), url(../img/doughnuts.png);
-  background-image: linear-gradient(rgba(255, 101, 138, 0.85), rgba(255, 101, 138, 0.85)), url(../img/doughnuts.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(58, 58, 81, 0.85)), to(rgba(58, 58, 81, 0.85))), url(../img/doughnuts.png);
+  background-image: linear-gradient(rgba(58, 58, 81, 0.85), rgba(58, 58, 81, 0.85)), url(../img/doughnuts.png);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -841,7 +863,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-size: cover;
-  height: 15vh;
+  height: 17vh;
+}
+
+@media only screen and (max-width: 50em) {
+  .menu__header {
+    height: 12vh;
+  }
 }
 
 .menu__search {
@@ -958,7 +986,7 @@ body {
 }
 
 .menu__overlay {
-  padding: 2rem;
+  padding: 3.5rem 4rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -973,9 +1001,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   opacity: 0;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
@@ -1151,5 +1176,11 @@ body {
   position: absolute;
   left: 30%;
   bottom: -20%;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
