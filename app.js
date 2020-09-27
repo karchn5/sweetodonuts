@@ -83,7 +83,7 @@ function getDonuts() {
           </div>
 
           <div class="menu__item--text">
-          <p class="">${muffins.name}</p>
+            <p class="">${muffins.name}</p>
           </div>
       </div>`;
         });
@@ -178,6 +178,29 @@ allTabs.addEventListener('click', function(){
 
 });
 
+const menuCategories = document.querySelectorAll(".menu__category");
+
+menuCategories.forEach(menu => {
+  menu.addEventListener('click', function(e){
+    if(e.target.classList.contains('menu__overlay')) {
+      if(e.target.style.opacity == "1"){
+          e.target.style.opacity = "0";
+      } else {
+        e.target.style.opacity = "1";
+      }
+    }
+    if(e.target.parentElement.classList.contains('menu__overlay')) {
+      if(e.target.parentElement.style.opacity == "1"){
+        e.target.parentElement.style.opacity = "0";
+      } else {
+        e.target.parentElement.style.opacity = "1";
+      }
+    }
+  })
+})
+
+
+
 
 // document.querySelectorAll('.menu__items').forEach(item => {
 //   item.addEventListener('click', function(e){
@@ -200,7 +223,3 @@ allTabs.addEventListener('click', function(){
 //   }
 // }
 // )
-
-// function off() {
-//   document.querySelector(".overlay").style.display = "none";
-// }

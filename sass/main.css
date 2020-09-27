@@ -1009,8 +1009,8 @@ body {
 }
 
 .menu__overlay > * {
-  -webkit-transform: translateY(20px);
-          transform: translateY(20px);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   -webkit-transition: -webkit-transform 0.25s;
   transition: -webkit-transform 0.25s;
   transition: transform 0.25s;
@@ -1019,29 +1019,6 @@ body {
 
 .menu__overlay:hover {
   opacity: 1;
-}
-
-.menu__overlay:hover > * {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
-.menu__overlay:active {
-  opacity: 1;
-}
-
-.menu__overlay:active > * {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
-.menu__overlay:focus {
-  opacity: 1;
-}
-
-.menu__overlay:focus > * {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .menu__item {
