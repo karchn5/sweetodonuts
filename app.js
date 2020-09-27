@@ -225,6 +225,8 @@ menuCategories.forEach(menu => {
 // }
 // )
 
+//code from https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices
+
 function watchForHover() {
   // lastTouchTime is used for ignoring emulated mousemove events
   // that are fired after touchstart events. Since they're
