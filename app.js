@@ -178,15 +178,18 @@ allTabs.addEventListener('click', function(){
 
 });
 
+
 const menuCategories = document.querySelectorAll(".menu__category");
 
 menuCategories.forEach(menu => {
+
   menu.addEventListener('click', function(e){
     if(e.target.classList.contains('menu__overlay')) {
       if(e.target.style.opacity == "1"){
           e.target.style.opacity = "0";
       } else {
         e.target.style.opacity = "1";
+
       }
     }
     if(e.target.parentElement.classList.contains('menu__overlay')) {
@@ -197,10 +200,8 @@ menuCategories.forEach(menu => {
       }
     }
   })
+
 })
-
-
-
 
 // document.querySelectorAll('.menu__items').forEach(item => {
 //   item.addEventListener('click', function(e){

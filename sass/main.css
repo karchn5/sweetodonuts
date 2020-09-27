@@ -1018,7 +1018,12 @@ body {
 }
 
 .menu__overlay:hover {
-  opacity: 1;
+  opacity: 1 !important;
+}
+
+.menu__overlay:hover > * {
+  -webkit-transform: translateY(0) !important;
+          transform: translateY(0) !important;
 }
 
 .menu__item {
