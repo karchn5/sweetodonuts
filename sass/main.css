@@ -909,7 +909,7 @@ body {
   }
 }
 
-.menu__tab:hover {
+body.hasHover .menu__tab:hover {
   background-color: #ff658a;
   color: white;
 }
@@ -993,11 +993,11 @@ body {
   transition: transform 0.25s, -webkit-transform 0.25s;
 }
 
-.menu__overlay:hover {
+body.hasHover .menu__overlay:hover {
   opacity: 1 !important;
 }
 
-.menu__overlay:hover > * {
+body.hasHover .menu__overlay:hover > * {
   -webkit-transform: translateY(0) !important;
           transform: translateY(0) !important;
 }

@@ -92,7 +92,7 @@
         }
     }
 
-    &__tab:hover {
+    body.hasHover &__tab:hover {
         background-color: $color-pink;
         color: $color-white;
     }
@@ -162,11 +162,11 @@
         transition: transform 0.25s;
     }
 
-    &__overlay:hover {
+    body.hasHover &__overlay:hover {
         opacity: 1 !important;
     }
     
-    &__overlay:hover > * {
+    body.hasHover &__overlay:hover > * {
         transform: translateY(0) !important; 
     }
 
