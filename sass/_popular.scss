@@ -32,23 +32,8 @@
 
         
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        grid-gap: 2.5rem;
-
-        @media only screen and (max-width: $bp-large) {
-            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-            grid-gap: 3rem;
-        }
-
-        @media only screen and (max-width: $bp-medium) {
-            grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-            grid-gap: 3rem;
-        }
-
-        @media only screen and (max-width: $bp-small) {
-            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-            grid-gap: 2rem;
-        }
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+        grid-gap: 2rem;
     }
 
 
