@@ -1,0 +1,32 @@
+.about {
+    &__content {
+        display: flex;
+        color: $color-black;
+        // background-color: $color-navy;
+        margin: 5rem;
+    }
+
+    &__img {
+        width: 50%;
+        border: solid 3px $color-navy-light;
+    }
+
+    &__text {
+        margin: 1rem 4rem;
+        font-size: 1.6rem;
+
+        &-heading {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__note {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        background-color:$color-navy-light;
+        color: $color-white;
+        padding: 2rem;
+        // margin: 5rem;
+    }
+}

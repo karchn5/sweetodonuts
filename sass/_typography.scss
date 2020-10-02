@@ -14,6 +14,7 @@
     font-size: 3.5rem;
     color: white;
     margin-bottom: 1.5rem;
+    text-decoration: underline;
     @media only screen and (max-width: $bp-small) {
         margin-bottom: 1rem;
         font-size: 3.2rem;
@@ -24,6 +25,12 @@
     @extend %heading;
     font-size: 3rem;
     color: white;
+}
+
+.heading-5 {
+    @extend %heading;
+    font-size: 3rem;
+    color: $color-pink;
 }
 
 .heading-4 {
