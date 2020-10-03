@@ -88,7 +88,6 @@ body {
   font-size: 3.5rem;
   color: white;
   margin-bottom: 1.5rem;
-  text-decoration: underline;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -197,7 +196,7 @@ body {
 }
 
 .nav__select {
-  margin: 2rem 0;
+  padding: 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,9 +204,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 @media only screen and (max-width: 50em) {
@@ -216,13 +215,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0 2rem;
+    padding: 0 2rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
   .nav__select {
-    margin: 0;
+    padding: 0;
   }
 }
 
@@ -237,7 +236,10 @@ body {
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
-  padding: 1rem 5rem;
+  padding: 1rem 4.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 50em) {
@@ -255,6 +257,11 @@ body {
 }
 
 .nav__link:hover {
+  background-color: #ff658a;
+  color: white;
+}
+
+.on {
   background-color: #ff658a;
   color: white;
 }
