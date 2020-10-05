@@ -52,6 +52,7 @@
 
     &__img {
 
+        cursor: pointer;
         border-radius: 5px;
 
         &--3 {
@@ -107,6 +108,7 @@
     height: 100%;
     grid-area: 1 /2;
     object-fit: cover;
+    cursor: pointer;
 
     border-radius: 5px;
 }

@@ -11,7 +11,7 @@
     position: fixed;
     height: 100%;
     width: 20rem;
-    
+    overflow: hidden;
 
     @media only screen and (max-width: $bp-medium) {
         position: relative;
@@ -47,6 +47,7 @@
         display: flex;
         flex-direction: column;
         align-items: stretch;
+        position: relative;
 
 
         @media only screen and (max-width: $bp-medium) {

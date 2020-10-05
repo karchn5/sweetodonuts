@@ -74,6 +74,33 @@ body {
   z-index: 100;
 }
 
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+}
+
 .heading-1, .heading-2, .heading-3, .heading-5, .heading-4 {
   font-family: "Oleo Script", cursive;
   font-weight: 500;
@@ -155,6 +182,7 @@ body {
   position: fixed;
   height: 100%;
   width: 20rem;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 50em) {
@@ -207,6 +235,7 @@ body {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  position: relative;
 }
 
 @media only screen and (max-width: 50em) {
@@ -654,6 +683,7 @@ body {
 }
 
 .gallery__img {
+  cursor: pointer;
   border-radius: 5px;
   width: 100%;
   height: 100%;
@@ -720,6 +750,7 @@ body {
   grid-area: 1 /2;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -890,6 +921,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 37.5em) {
