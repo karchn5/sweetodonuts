@@ -5,98 +5,98 @@
             "price": "0.85",
             "descript": "Smaller in size but not in taste! This donut resembles the texture of cake, with a soft, moist interior.",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/plain.jpg"
         },
         {
             "name": "glaze",
             "price": "0.90",
             "descript": "The CLASSIC donut. The dough is given plently of time to rise to create the soft and chewy texture that everybody loves!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/glaze.jpg"
         },
         {
             "name": "old fashion",
             "price": "0.90",
             "descript": "This donut has a slightly crunchy exterior but is also cakey and soft on the inside! ",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/oldfash_round.jpg"
         },
         {
             "name": "twist",
             "price": "1.00",
             "descript": "This beautiful donut is twisted by hand then dipped in chocolate, covered in glaze, or tossed in sugar.",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/glazetwist.jpg"
         },
         {
             "name": "devilfood cake",
             "price": "0.90",
             "descript": "A subtle chocolatey cake donut with a slightly crunchy exterior and a soft, cake-like interior.",
             "flavors": ["chocolate", "chocolate with peanuts", "vanilla", "plain"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/choconut.jpg"
         },
         {
             "name": "jelly-filled",
             "price": "1.25",
             "descript": "A delicious donut filled with a sweet yet tangy raspberry jelly and covered with glaze or tossed in powdered sugar.",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/jelly.jpg"
         },
         {
             "name": "buttermilk bar",
             "price": "1.15",
             "descript": "This cake-like donut is moist with a delicious buttermilk flavor!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/oldfash_round.jpg"
         },
         {
             "name": "chocolate bar",
             "price": "1.00",
             "descript": "The classic donut but long, slightly crunchier, and dipped in chocolate!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/chocobar.jpg"
         },
         {
             "name": "donut holes",
             "price": "1.60",
             "descript": "The CLASSIC glazed donut but bite sized!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/donutholes.jpg"
         },
         {
             "name": "bear claw",
             "price": "1.60",
             "descript": "A yeast donut shaped into a bear claw with apple pie-style filling!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/bearclaw.jpg"
         },
         {
             "name": "apple fritter",
             "price": "1.60",
             "descript": "Juicy apples diced with donut dough and fried to perfection!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/applefritter.jpg"
         },
         {
             "name": "tiger tail",
             "price": "1.60",
-            "descript": "A yeast and chocolate twist donut covered in glaze!",
+            "descript": "A yeast and chocolate twist donut drizzled in glaze!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/tiger.jpg"
         },
         {
             "name": "cinnamon roll",
             "price": "1.60",
             "descript": "A beautiful swirl of cinnamon and glaze with a soft and chewy texture.",
             "flavors": ["chocolate", "cinnamon crumb", "vanilla"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/cinnaroll.jpg"
         },
         {
             "name": "chocolate chip bar",
             "price": "1.60",
             "descript": "Chocolate chips inside of a donut bar dipped in chocolate with chocolate chips sprinkled on top!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/single.jpg"
+            "photo": "img/taken/chocochip.jpg"
         }
     ],
 
@@ -106,7 +106,7 @@
             "price": "1.75",
             "descript": "A flakey, buttery croissant pulled apart to reveal a fluffy inside!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/croissant.jpg"
+            "photo": "img/taken/croissant.jpg"
         },
         {
             "name": "raisin roll",
@@ -144,18 +144,11 @@
             "photo": "img/croissant.jpg"
         },
         {
-            "name": "fruit wrap",
-            "price": "1.25",
-            "descript": "A crunchy pastry with fruit filling!",
-            "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/croissant.jpg"
-        },
-        {
             "name": "ham & cheese",
             "price": "2.75",
             "descript": "Juicy ham and american-swiss cheese rolled into a beautiful croissant!",
             "flavors": ["chocolate", "chocolate chip", "maple"],
-            "photo": "img/croissant.jpg"
+            "photo": "img/taken/ham_cheese.jpg"
         }
     ],
 
@@ -165,21 +158,21 @@
             "price": "1.65",
             "descript": "Blueberries baked into a warm, cozy muffin!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/muffin.jpg"
+            "photo": "img/taken/blueberry.jpg"
         },
         {
             "name": "bran muffin",
             "price": "1.65",
             "descript": "A healthy bran muffin that tastes like dessert!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/muffin.jpg"
+            "photo": "img/taken/bran.jpg"
         },
         {
             "name": "banana muffin",
             "price": "1.65",
             "descript": "Sweet, ripe bananas baked into a moist, cake-like muffin!",
             "flavors": ["chocolate", "strawberry", "cinnamon crumb", "vanilla"],
-            "photo": "img/muffin.jpg"
+            "photo": "img/taken/banana.jpg"
         },
         {
             "name": "bagel & cream cheese",
